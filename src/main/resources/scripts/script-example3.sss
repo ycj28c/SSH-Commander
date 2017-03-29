@@ -1,0 +1,4 @@
+	Run("ls -l; cd /opt/tomcat-demows/logs;ls -l")
+	Equals("hostname", "qa-tomcat-cas-hq.ycj28c.io", 60)
+	Run("grep Git-commit /opt/tomcat-demows/webapps/ws/META-INF/MANIFEST.MF", 60)
+	Contains("cd /opt/tomcat-demows/logs;tail -10f demows.log", "startup", 60)

@@ -1,4 +1,4 @@
-package system_check;
+package io.ycj28c.sshcommander.test;
 
 import java.io.File;
 import java.util.ArrayList;

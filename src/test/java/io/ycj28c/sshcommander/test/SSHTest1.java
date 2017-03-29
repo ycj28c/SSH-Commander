@@ -1,4 +1,4 @@
-package system_check;
+package io.ycj28c.sshcommander.test;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -16,7 +16,7 @@ import io.ycj28c.sshcommander.vo.KeyBoardEnum;
  * a test example to hard code server and script 
  *
  */
-public class SSHTest {
+public class SSHTest1 {
 	
 	public static void main(String[] args) throws JSchException {
 		String host = "1.1.1.1";

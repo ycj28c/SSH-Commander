@@ -5,10 +5,10 @@ A SSH scripts tools able to run in command line by configured machine and script
 ```json
 {
 	"hostname":	"qa-scripts.ycj28c.io",
-	"ip":	"1.1.1.1",
-	"port": 22,
-	"username": "111",
-	"password": "111"
+	"ip":		"1.1.1.1",
+	"port": 	22,
+	"username": 	"111",
+	"password": 	"111"
 }
 ```
 

@@ -31,6 +31,7 @@ public class SSHScriptParser {
 //		session.disconnect();
 //	}
 
+	@SuppressWarnings("resource")
 	public ArrayList<SSHScript> parse(File scriptFile) {
 		ArrayList<SSHScript> list = new ArrayList<SSHScript>();
 		BufferedReader br = null;
